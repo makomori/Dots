@@ -1,3 +1,5 @@
+![dots_header](Dots/Artboard.png "dots header")
+
 # Dots
 
 [![CI Status](http://img.shields.io/travis/makomori/Dots.svg?style=flat)](https://travis-ci.org/makomori/Dots)
