@@ -7,6 +7,9 @@
 [![License](https://img.shields.io/cocoapods/l/Dots.svg?style=flat)](http://cocoapods.org/pods/Dots)
 [![Platform](https://img.shields.io/cocoapods/p/Dots.svg?style=flat)](http://cocoapods.org/pods/Dots)
 
+## GIF
+![gif](https://github.com/makomori/Dots/blob/master/ezgif.com-video-to-gif.gif "dots gif")
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
