@@ -1,0 +1,6 @@
+framework module Dots {
+  umbrella header "Dots-umbrella.h"
+
+  export *
+  module * { export * }
+}
