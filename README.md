@@ -41,6 +41,7 @@ loadingView.stop()
 
 ## Customization
 You can use custom dot colors. 
+
 Note: You need to create array which includes four UIColors. If you specify less than or more than 4 colors, the colors of dots will be default.
 
 ```swift
