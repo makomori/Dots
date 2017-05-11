@@ -1,5 +1,5 @@
 //
-//  CircleView.swift
+//  DotView.swift
 //  Dots
 //
 //  Created by 母利睦人 on 2017/05/11.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CircleView: UIView {
+class DotView: UIView {
     let expandRate: CGFloat = 2.0
     let animationDuration = 0.4
     var expanding = false

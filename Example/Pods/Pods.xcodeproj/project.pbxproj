@@ -14,10 +14,11 @@
 		8D08A0FAB5EAF260110BE1C1E17271E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		944EEACC6651843605C4DF3C7D343C5B /* Pods-Dots_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C2E5A82B48B9D3DAE15FE9872414B /* Pods-Dots_Tests-dummy.m */; };
 		A47D6C01049051D85412BB5D0A22FFC4 /* Pods-Dots_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B78EA548BD68573ADC8D4FAE87EE323 /* Pods-Dots_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9AC6A5F6ADD688DF6334838F7F3BBB9 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C742C0E6D5127167CF5CEDBD1C65A /* CircleView.swift */; };
+		A9AC6A5F6ADD688DF6334838F7F3BBB9 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C742C0E6D5127167CF5CEDBD1C65A /* DotView.swift */; };
 		BDFC7209E98EFD43445C600881989966 /* Dots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2343827AEE266EE5F0DD34EEBCFF0A0 /* Dots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCA3E21EE3C3DF85138FC46776F4B360 /* Pods-Dots_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C364CBA3594DA31A973A55CED0DE75 /* Pods-Dots_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB2F75A81EC4603100761F8E /* CirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F75A71EC4603100761F8E /* CirclesView.swift */; };
+		FB2F75A81EC4603100761F8E /* DotsLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F75A71EC4603100761F8E /* DotsLoadingView.swift */; };
+		FB2F75AA1EC4623900761F8E /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F75A91EC4623900761F8E /* UIColor+hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,7 @@
 		2F33114B4E29DBC36A2555FF63DEFD06 /* Pods_Dots_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dots_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35774BD6B4D3064993886DE3A5462C07 /* Dots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dots-prefix.pch"; sourceTree = "<group>"; };
 		369E3C436059B6ED6DD667947A49FE5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A5C742C0E6D5127167CF5CEDBD1C65A /* CircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		3A5C742C0E6D5127167CF5CEDBD1C65A /* DotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
 		3F57EE4F9BA5363F6CFC699BFE4E483D /* Dots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dots.xcconfig; sourceTree = "<group>"; };
 		3F82F5470F2AE8F282738B087CFC30C0 /* Pods-Dots_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dots_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		449F53AE0C989D28D7E6872F091A3EF0 /* Pods-Dots_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dots_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,7 +64,8 @@
 		ADFE272C75EDCA949C0BC906844E0A10 /* Pods-Dots_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dots_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BAD98FB53B9D35086C6A63B3E074C41A /* Pods-Dots_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dots_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D2343827AEE266EE5F0DD34EEBCFF0A0 /* Dots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dots-umbrella.h"; sourceTree = "<group>"; };
-		FB2F75A71EC4603100761F8E /* CirclesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclesView.swift; sourceTree = "<group>"; };
+		FB2F75A71EC4603100761F8E /* DotsLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotsLoadingView.swift; sourceTree = "<group>"; };
+		FB2F75A91EC4623900761F8E /* UIColor+hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,8 +204,9 @@
 		C7D1E8437676C1155B591FAEA51AD95E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3A5C742C0E6D5127167CF5CEDBD1C65A /* CircleView.swift */,
-				FB2F75A71EC4603100761F8E /* CirclesView.swift */,
+				3A5C742C0E6D5127167CF5CEDBD1C65A /* DotView.swift */,
+				FB2F75A71EC4603100761F8E /* DotsLoadingView.swift */,
+				FB2F75A91EC4623900761F8E /* UIColor+hex.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -349,8 +352,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A3A707AE37AE0A76BB3A51D86994047 /* Dots-dummy.m in Sources */,
-				A9AC6A5F6ADD688DF6334838F7F3BBB9 /* CircleView.swift in Sources */,
-				FB2F75A81EC4603100761F8E /* CirclesView.swift in Sources */,
+				FB2F75AA1EC4623900761F8E /* UIColor+hex.swift in Sources */,
+				A9AC6A5F6ADD688DF6334838F7F3BBB9 /* DotView.swift in Sources */,
+				FB2F75A81EC4603100761F8E /* DotsLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
