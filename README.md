@@ -12,6 +12,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+iOS 10.0 + 
 
 ## Installation
 
@@ -20,6 +21,32 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "Dots"
+```
+
+## Usage
+In your ViewController, run below.
+
+### Show
+
+```swift
+let loadingView = DotsLoadingView(colors: nil)
+self.view.addSubview(loadingView)
+```
+
+### Hide
+
+```swift
+loadingView.stop()
+```
+
+## Customization
+You can use custom dot colors. 
+Note: You need to create array which includes four UIColors. If you specify less than or more than 4 colors, the colors of dots will be default.
+
+```swift
+let dotColors = [UIColor.red, UIColor.blue, UIColor.green, UIColor.yellow]
+let loadingView = DotsLoadingView(colors: dotColors)
+self.view.addSubview(loadingView)
 ```
 
 ## Author
