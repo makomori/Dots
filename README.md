@@ -7,6 +7,8 @@
 [![License](https://img.shields.io/cocoapods/l/Dots.svg?style=flat)](http://cocoapods.org/pods/Dots)
 [![Platform](https://img.shields.io/cocoapods/p/Dots.svg?style=flat)](http://cocoapods.org/pods/Dots)
 
+Dots is the replacement of UIActivityIndicator. It provides modern and highly customizable loading indicator. You can call this dots loading view from everywhere in your program with just 2 lines of code.
+
 ## GIF
 ![gif](https://github.com/makomori/Dots/blob/master/ezgif.com-video-to-gif.gif "dots gif")
 
