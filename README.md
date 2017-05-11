@@ -1,4 +1,4 @@
-![dots_header](Dots/Artboard.png "dots header")
+![dots_header](https://github.com/makomori/Dots/blob/master/Artboard.png "dots header")
 
 # Dots
 
