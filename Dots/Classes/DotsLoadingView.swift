@@ -19,17 +19,20 @@ public class DotsLoadingView: UIView {
     private let myYellow = UIColor.hexStr(hexStr: "#FDBC02", alpha: 1.0)
     private let myGreen = UIColor.hexStr(hexStr: "#4AB552", alpha: 1.0)
     
-    public let colors: [UIColor] = []
+    public var colors: [UIColor] = []
     
     public init(colors: [UIColor]?) {
         super.init(frame: CGRect(x: 0, y: 0, width: 150, height: 100))
-        if let _ = colors {
-            if colors?.count == 4 {
+        if let customColors = colors {
+            if customColors.count == 4 {
                 // set custom colors
+                self.colors = customColors
             } else {
                 print("You can set custom colors only if you set four colors.")
-                self.colors = colors
+                self.colors = [myBlue, myRed, myYellow, myGreen]
             }
+        } else {
+            self.colors = [myBlue, myRed, myYellow, myGreen]
         }
     }
     
@@ -52,7 +55,6 @@ public class DotsLoadingView: UIView {
     }
     
     private func startAnimation() {
-        let colors = [myBlue, myRed, myYellow, myGreen]
         for i in 0..<colors.count {
             let dotFrame = CGRect(x: 0, y: 0, width: CGFloat(length), height: CGFloat(length))
             let dot = DotView(color: colors[i], delay: self.delay*Double(i), frame: dotFrame)
