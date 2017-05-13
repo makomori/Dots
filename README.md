@@ -14,7 +14,14 @@ Dots is the replacement of UIActivityIndicatorView. It provides modern and highl
 ![gif](https://github.com/makomori/Dots/blob/master/ezgif.com-video-to-gif.gif "dots gif")
 
 ### Mono
-![gif](https://github.com/makomori/Dots/blob/master/ezgif.com-video-to-gif.gif "dots« gif")
+![gif](https://github.com/makomori/Dots/blob/master/dots_mono.gif "mono gif")
+
+### Pink gradient
+![gif](https://github.com/makomori/Dots/blob/master/dots_pink.gif "pink gif")
+
+### Twitter color
+![gif](https://github.com/makomori/Dots/blob/master/dots_twitter.gif "twitter gif")
+
 
 ## Example
 
