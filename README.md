@@ -9,8 +9,12 @@
 
 Dots is the replacement of UIActivityIndicatorView. It provides modern and highly customizable loading indicator. You can call this dots loading view from everywhere in your program with just 2 lines of code.
 
-## GIF
+## GIFs
+### Google color
 ![gif](https://github.com/makomori/Dots/blob/master/ezgif.com-video-to-gif.gif "dots gif")
+
+### Mono
+![gif](https://github.com/makomori/Dots/blob/master/ezgif.com-video-to-gif.gif "dots« gif")
 
 ## Example
 
