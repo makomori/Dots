@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Dots'
   s.version          = '1.0.0'
-  s.summary          = 'Modern loading indicator for iOS 10.'
+  s.summary          = 'Modern loading indicator for iOS 10 which allows the app to use Google-like dots animation for loading indicator.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
