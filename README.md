@@ -1,3 +1,5 @@
+![dots_header](https://github.com/makomori/Dots/blob/master/dots_header.png "dots header")
+
 # Dots
 
 [![CI Status](http://img.shields.io/travis/makomori/Dots.svg?style=flat)](https://travis-ci.org/makomori/Dots)
@@ -5,11 +7,17 @@
 [![License](https://img.shields.io/cocoapods/l/Dots.svg?style=flat)](http://cocoapods.org/pods/Dots)
 [![Platform](https://img.shields.io/cocoapods/p/Dots.svg?style=flat)](http://cocoapods.org/pods/Dots)
 
+Dots is the replacement of UIActivityIndicatorView. It provides modern and highly customizable loading indicator. You can call this dots loading view from everywhere in your program with just 2 lines of code.
+
+## GIF
+![gif](https://github.com/makomori/Dots/blob/master/ezgif.com-video-to-gif.gif "dots gif")
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+iOS 10.0 + 
 
 ## Installation
 
@@ -18,6 +26,33 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "Dots"
+```
+
+## Usage
+In your ViewController, run below.
+
+### Show
+
+```swift
+let loadingView = DotsLoadingView(colors: nil)
+self.view.addSubview(loadingView)
+```
+
+### Hide
+
+```swift
+loadingView.stop()
+```
+
+## Customization
+You can use custom dot colors. 
+
+Note: You need to create array which includes four UIColors. If you specify less than or more than 4 colors, the colors of dots will be default.
+
+```swift
+let dotColors = [UIColor.red, UIColor.blue, UIColor.green, UIColor.yellow]
+let loadingView = DotsLoadingView(colors: dotColors)
+self.view.addSubview(loadingView)
 ```
 
 ## Author
