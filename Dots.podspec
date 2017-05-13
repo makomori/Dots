@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'Dots'
+  s.name             = 'DotsLoading'
   s.version          = '1.0.0'
   s.summary          = 'Modern loading indicator for iOS 10 which allows the app to use Google-like dots animation for loading indicator.'
 
