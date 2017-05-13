@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'makomori' => 'makomori26@gmail.com' }
   s.source           = { :git => 'https://github.com/makomori/Dots.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/makomori26>'
+  # s.social_media_url = 'https://twitter.com/makomori26>'
 
   s.ios.deployment_target = '10.0'
 
