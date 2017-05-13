@@ -23,6 +23,7 @@ public class DotsLoadingView: UIView {
     
     public init(colors: [UIColor]?) {
         super.init(frame: CGRect(x: 0, y: 0, width: 150, height: 100))
+        self.backgroundColor = UIColor.clear
         if let customColors = colors {
             if customColors.count == 4 {
                 // set custom colors

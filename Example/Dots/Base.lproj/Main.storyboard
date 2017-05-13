@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="eqW-Sn-i9F">
-                                <rect key="frame" x="77.5" y="538" width="220" height="30"/>
+                                <rect key="frame" x="59" y="47" width="257" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZD-v1-9Bk">
                                         <rect key="frame" x="0.0" y="0.0" width="88" height="30"/>
@@ -32,8 +32,8 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9k-Ke-EOk">
-                                        <rect key="frame" x="128" y="0.0" width="92" height="30"/>
-                                        <state key="normal" title="Custom color"/>
+                                        <rect key="frame" x="128" y="0.0" width="129" height="30"/>
+                                        <state key="normal" title="Pink gradient color"/>
                                         <connections>
                                             <action selector="showCustomProgress:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Iqx-Z9-fw3"/>
                                         </connections>
@@ -44,7 +44,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRP-hC-VXd">
-                                <rect key="frame" x="171" y="598" width="32" height="30"/>
+                                <rect key="frame" x="171" y="617" width="32" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="K9d-tm-y5h"/>
                                 </constraints>
@@ -53,15 +53,67 @@
                                     <action selector="stop:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GOq-PG-e5c"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom colors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAG-YG-YJG">
+                                <rect key="frame" x="132" y="376.5" width="111" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ec-WF-PmY">
+                                <rect key="frame" x="141" y="557" width="92" height="30"/>
+                                <state key="normal" title="Custom color"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6O5-b2-cdc">
+                                <rect key="frame" x="0.0" y="407" width="375" height="120"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First color hex" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="udd-uK-7yk">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Second color hex" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XU5-9n-AG3">
+                                        <rect key="frame" x="0.0" y="30" width="375" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Third color hex" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CzV-5W-wH2">
+                                        <rect key="frame" x="0.0" y="60" width="375" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fourth color hex" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yDd-Q9-jWj">
+                                        <rect key="frame" x="0.0" y="90" width="375" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="DRP-hC-VXd" firstAttribute="top" secondItem="eqW-Sn-i9F" secondAttribute="bottom" constant="30" id="DHH-NI-WkQ"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="DRP-hC-VXd" secondAttribute="bottom" constant="39" id="DX3-vX-Ugg"/>
+                            <constraint firstItem="eqW-Sn-i9F" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="27" id="5IZ-1X-rUI"/>
+                            <constraint firstItem="6O5-b2-cdc" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="8GM-Cb-6vI"/>
+                            <constraint firstItem="2Ec-WF-PmY" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="A7G-X0-a4e"/>
+                            <constraint firstItem="LAG-YG-YJG" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="BNZ-eq-A4w"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="DRP-hC-VXd" secondAttribute="bottom" constant="20" id="DX3-vX-Ugg"/>
+                            <constraint firstItem="DRP-hC-VXd" firstAttribute="top" secondItem="2Ec-WF-PmY" secondAttribute="bottom" constant="30" id="aCd-Vw-I3K"/>
+                            <constraint firstItem="6O5-b2-cdc" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="aWp-lZ-4RL"/>
                             <constraint firstItem="eqW-Sn-i9F" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="nPW-oC-vLR"/>
+                            <constraint firstItem="6O5-b2-cdc" firstAttribute="top" secondItem="LAG-YG-YJG" secondAttribute="bottom" constant="10" id="o0g-qR-QGl"/>
                             <constraint firstItem="DRP-hC-VXd" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="qJB-CQ-sfH"/>
+                            <constraint firstItem="2Ec-WF-PmY" firstAttribute="top" secondItem="6O5-b2-cdc" secondAttribute="bottom" constant="30" id="u7p-sR-wjs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstHex" destination="udd-uK-7yk" id="KYb-mB-Hfu"/>
+                        <outlet property="fourthHex" destination="yDd-Q9-jWj" id="WUf-jA-jQu"/>
+                        <outlet property="secondHex" destination="XU5-9n-AG3" id="gzp-jS-BHV"/>
+                        <outlet property="thirdHex" destination="CzV-5W-wH2" id="ZfC-g0-bmY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

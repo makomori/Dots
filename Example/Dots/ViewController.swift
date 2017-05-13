@@ -11,6 +11,10 @@ import Dots
 
 class ViewController: UIViewController {
     var loadingView: DotsLoadingView?
+    @IBOutlet weak var firstHex: UITextField!
+    @IBOutlet weak var secondHex: UITextField!
+    @IBOutlet weak var thirdHex: UITextField!
+    @IBOutlet weak var fourthHex: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
