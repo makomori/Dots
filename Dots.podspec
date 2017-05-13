@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Modern loading indicator for iOS 10 which allows the app to use Google-like dots animation for loading indicator with just two lines..'
 
   s.homepage         = 'https://github.com/makomori/Dots'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
