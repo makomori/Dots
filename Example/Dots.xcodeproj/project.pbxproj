@@ -17,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1788FD2781B01BC5E50C4F8C /* Pods-Dots_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dots_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dots_Tests/Pods-Dots_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Dots_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dots_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,7 +25,6 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		63A5B947EE3DE89792DC1DAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		787457A823836E7DE980251A /* Pods-Dots_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dots_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dots_Tests/Pods-Dots_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B32D1F9DBCC172DAF110D791 /* Pods-Dots_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dots_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dots_Example/Pods-Dots_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF0542AEE8F0BA07354F8FF /* Pods-Dots_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dots_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dots_Example/Pods-Dots_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E8136C6D48399F5624943C20 /* Pods_Dots_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dots_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,8 +102,6 @@
 			children = (
 				B32D1F9DBCC172DAF110D791 /* Pods-Dots_Example.debug.xcconfig */,
 				DEF0542AEE8F0BA07354F8FF /* Pods-Dots_Example.release.xcconfig */,
-				1788FD2781B01BC5E50C4F8C /* Pods-Dots_Tests.debug.xcconfig */,
-				787457A823836E7DE980251A /* Pods-Dots_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
