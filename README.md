@@ -29,12 +29,7 @@ iOS 10.0 +
 
 ## Installation
 
-Dots is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "DotsLoading"
-```
+I submit this pod 10 days ago, but still can't install via Cocoapods. Maybe we need to wait more. If you have any clue why we can't use this pod, let me know. Thank you.
 
 ## Usage
 In your ViewController, run below.
