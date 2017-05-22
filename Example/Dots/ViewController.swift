@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         self.stop(self)
         self.loadingView = DotsLoadingView(colors: nil)
         self.loadingView?.show()
+      DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+        // your code here
+        self.loadingView?.stop()
+      }
     }
     
     @IBAction func showCustomProgress(_ sender: Any) {
@@ -30,6 +34,10 @@ class ViewController: UIViewController {
         let fourthColor = UIColor(red: 1.0, green: 0.082, blue: 0.408, alpha: 1.0)
         self.loadingView = DotsLoadingView(colors: [firstColor, secondColor, thirdColor, fourthColor])
         self.loadingView?.show()
+      DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+        // your code here
+        self.loadingView?.stop()
+      }
     }
     
     @IBAction func stop(_ sender: Any) {
