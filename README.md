@@ -31,6 +31,10 @@ iOS 10.0 +
 
 I submit this pod 10 days ago, but still can't install via Cocoapods. Maybe we need to wait more. If you have any clue why we can't use this pod, let me know. Thank you.
 
+``` ruby
+pod 'DotsLoading'
+```
+
 ## Usage
 In your ViewController, run below.
 
