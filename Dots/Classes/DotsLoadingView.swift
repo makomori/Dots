@@ -42,6 +42,11 @@ public class DotsLoadingView: UIView {
     }
     
     public func show() {
+        if let sv = self.superview{
+            self.center = sv.center
+            self.startAnimation()
+            return
+        }
         if let rootViewController = UIApplication.shared.windows.first?.rootViewController {
             rootViewController.view.addSubview(self)
             self.center = rootViewController.view.center
